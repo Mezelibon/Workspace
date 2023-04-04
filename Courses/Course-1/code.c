@@ -5,7 +5,6 @@ int main(){
     // printf("Hello World!");
 
     /*
-    
                 DATA TYPES
 
         int 
@@ -14,8 +13,6 @@ int main(){
         float
         double   
     */
-
-    
 
 
     return 0;

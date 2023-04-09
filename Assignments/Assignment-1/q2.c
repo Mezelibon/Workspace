@@ -22,7 +22,7 @@ int main()
      else {
 
          printf("The number is neutral");
-         
+
      }
 
      return 0;

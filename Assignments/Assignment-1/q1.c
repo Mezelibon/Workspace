@@ -7,11 +7,11 @@ int main()
 
     int b;
 
-    printf("Enter the first number = ");
+    printf("Enter the first number: ");
 
     scanf("%d", &a);
 
-    printf("Enter the second number = ");
+    printf("Enter the second number: ");
 
     scanf("%d", &b);
 

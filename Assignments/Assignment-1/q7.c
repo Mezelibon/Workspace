@@ -13,6 +13,14 @@ int main()
 
     scanf("%d", &b);
 
+    if (a != (int)a || b != (int)b)
+    {
+
+        printf("Error: please only enter integers");
+
+        return 0;
+    }
+
     printf("Enter the arithmetic operation icon (+, -, *, /) = ");
 
     scanf(" %c", &c);
@@ -45,7 +53,7 @@ int main()
 
     else {
 
-        printf("Error: please enter an arithmetic operation icon");
+        printf("Error: please only enter an arithmetic operation icon");
     }
 
     return 0;

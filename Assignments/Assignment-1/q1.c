@@ -29,6 +29,10 @@ int main()
         printf("The largest number between this two is = %d", b);
     }
     
+    else if(a != (int)a || b != (int)b){
+
+        printf("Error: please only enter integers");
+    }
 
     else{
 

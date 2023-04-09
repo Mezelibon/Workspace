@@ -51,6 +51,11 @@ int main()
             printf("%d > %d > %d", c, b, a);
         }
 
+        else if (a != (int)a || b != (int)b || c != (int)c){
+
+            printf("Error: please only enter integers");
+        }
+
         else {
 
             printf("Error: all numbers should be different");

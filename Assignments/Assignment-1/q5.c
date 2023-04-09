@@ -27,7 +27,7 @@ int main()
     }
     else{
 
-        printf("Error: please enter decimal numbers");
+        printf("Error: please only enter decimal numbers");
     }
     return 0;
 }

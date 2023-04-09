@@ -3,19 +3,26 @@
 int main()
 {
 
-     int sayi;
+     int a;
 
      printf("Enter a number: ");
-     scanf("%d", &sayi);
+     scanf("%d", &a);
 
-     if(sayi > 0) {
+     if(a > 0) {
 
          printf("The number is positive");
 
      }
-     else if(sayi < 0) {
+     else if(a < 0) {
 
        printf("The number is negative");
+
+     }
+     else if(a != (int)a ){
+
+
+      printf("Error: please enter an integer");
+
 
      }
 

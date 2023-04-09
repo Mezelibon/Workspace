@@ -26,11 +26,20 @@ int main()
          printf("The largest number is %d", b);
 
      }
-     else {
+     else if(c > a && c > b) {
 
          printf("The largest number is %d", c);
          
      }
 
+     else if(a != (int) a || b != (int) b || c != (int) c){
+
+         printf("Error: please only enter different integers");
+     }
+
+    else {
+
+         printf("Error: please enter different integers");
+    }
     return 0;
 }

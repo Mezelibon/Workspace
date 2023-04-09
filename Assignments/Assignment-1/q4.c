@@ -17,7 +17,7 @@ int main()
 
     else if(letter != (char)letter){
 
-            printf("Error: please enter a letter");
+            printf("Error: please only enter a letter");
         }
     else
     {

@@ -1,0 +1,13 @@
+1. Write a program that takes two integers from the user and displays the larger of the two.
+
+2. Write a program that takes an integer from the user and determines if it is even or odd using if-else statements.
+
+3. Write a program that takes three integers from the user and displays the largest of the three using if-else if-else statements.
+
+4. Write a program that takes a character from the user and determines if it is a vowel or a consonant using if-else statements.
+
+5. Write a program that takes two floating-point numbers from the user and displays their sum, difference, product, and quotient.
+
+6. Write a program that takes three integers from the user and displays them in ascending order.
+
+7. Write a program that takes two integers and a character (+, -, *, /) from the user and performs the corresponding arithmetic operation using if-else statements.

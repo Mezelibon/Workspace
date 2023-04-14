@@ -2,40 +2,30 @@
 
 int main()
 {
-
-    int a;
-
-    int b;
+    int a, b;
 
     printf("Enter the first number: ");
+    scanf("%d", &a);// \n
 
-    scanf("%d", &a);
+    fflush(stdin);
 
     printf("Enter the second number: ");
+    scanf("%d", &b);// .2
 
-    scanf("%d", &b);
-
-
-    if(a > b)
+    if (a > b)
     {
-
         printf("The largest number between this two is = %d", a);
-    
     }
-
-
     else if (b > a)
     {
         printf("The largest number between this two is = %d", b);
     }
-    
-    else if(a != (int)a || b != (int)b){
-
+    else if (a != (int)a || b != (int)b)
+    {
         printf("Error: please only enter integers");
     }
-
-    else{
-
+    else
+    {
         printf("The numbers you entered are equal");
     }
 

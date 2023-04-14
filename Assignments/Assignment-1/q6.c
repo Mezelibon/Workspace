@@ -2,64 +2,48 @@
 
 int main()
 {
-        int a, b, c;
+    int a, b, c;
 
-        printf("Enter the first number: ");
+    printf("Enter the first number: ");
+    scanf("%d", &a);
 
-        scanf("%d", &a);
+    printf("Enter the second number: ");
+    scanf("%d", &b);
 
-        printf("Enter the second number: ");
+    printf("Enter the third number: ");
+    scanf("%d", &c);
 
-        scanf("%d", &b);
-
-        printf("Enter the third number: ");
-
-        scanf("%d", &c);
-
-        if(a > b && a > c && b > c ){
-
+    if(a > b && a > c){
+        if(b > c){
             printf("%d > %d > %d", a, b, c);
-        }
-
-        else if (a > b && a > c && c > b)
-        {
-
+        } 
+        else{
             printf("%d > %d > %d", a, c, b);
         }
-
-        else if (b > a && b > c && a > c)
+    }
+    if (b > a && b > c)
+    {
+        if (a > c)
         {
-
             printf("%d > %d > %d", b, a, c);
         }
-        else if (b > a && b > c && c > a)
+        else
         {
-
             printf("%d > %d > %d", b, c, a);
         }
-
-        else if (c > a && c > b && a > b)
+    }
+    if (c > a && c > a)
+    {
+        if (a > b)
         {
-
             printf("%d > %d > %d", c, a, b);
         }
-        
-
-        else if (c > a && c > b && b > a)
+        else
         {
-
             printf("%d > %d > %d", c, b, a);
         }
+    }
 
-        else if (a != (int)a || b != (int)b || c != (int)c){
-
-            printf("Error: please only enter integers");
-        }
-
-        else {
-
-            printf("Error: all numbers should be different");
-        }
-
-        return 0;
+    
+    return 0;
 }
